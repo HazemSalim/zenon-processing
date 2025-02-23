@@ -1,4 +1,3 @@
-
 # Zenon Data Processing Tool
 
 ## Task Description & File Processing
@@ -13,7 +12,9 @@ The primary objective is to:
 - Parse the input file.
 - For each variable, compute the minimum and maximum values along with their respective timestamps.
 - Output the results in the following format:
+  ```
   <Variable ID>;<Min Value>;<Min Timestamp>;<Max Value>;<Max Timestamp>
+  ```
 
 ---
 
@@ -29,8 +30,9 @@ The primary objective is to:
 2. **Output File**:
    - The result will list the min and max values for each variable, with corresponding timestamps.
    - The output format is as follows:
+    ```
      <Variable ID>;<Min Value>;<Min Timestamp>;<Max Value>;<Max Timestamp>
-
+    ```
 ---
 
 ## Build & Run Instructions
