@@ -1,0 +1,25 @@
+zenon saves historical variable values in a binary file. Each individual value is saved as a record, which contains the following fields:
+
+- Channel index
+
+- value
+
+- Status (bit field)
+
+- Timestamp
+
+ 
+
+One of these files was exported as TXT. It contains all values in the ‘-VALUES-’ section and the assignment of channel index to variable ID in the ‘-VARIABLES-’ section.
+
+ 
+
+The aim is to read in this TXT file and search for the value and time stamp of the respective minimum and maximum value for all variables contained and write them to another text file. The format of the lines in this target file should be:
+
+Variable ID;Value (min);Timestamp (min);Value (max); Timestamp (max)
+
+ 
+
+The tool should be a command line programme which receives the file name of the source file (A1.TXT) as a transfer parameter. The implementation should be either in C++ using the STL or in C# with .Net Core - the latter is probably more likely to be the choice in your case - and (where appropriate) be object-orientated. Attention should also be paid to portability, i.e. not using Windows or Linux API functions directly.
+
+The choice of IDE and compiler is up to you, as is whether the development platform is Windows or Linux. (Suggestion: Visual Studio 2022 under Windows)

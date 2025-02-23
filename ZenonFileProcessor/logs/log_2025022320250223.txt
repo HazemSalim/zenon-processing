@@ -1,0 +1,18 @@
+2025-02-23 12:54:07.799 +01:00 [INF] Parsing file: data/A1.TXT
+2025-02-23 12:54:07.836 +01:00 [INF] Started processing VARIABLE section.
+2025-02-23 12:54:07.837 +01:00 [DBG] Parsed variable: ChannelIndex = 0, VariableId = 5
+2025-02-23 12:54:07.839 +01:00 [DBG] Parsed variable: ChannelIndex = 1, VariableId = 6
+2025-02-23 12:54:07.840 +01:00 [DBG] Parsed variable: ChannelIndex = 2, VariableId = 7
+2025-02-23 12:54:07.840 +01:00 [DBG] Parsed variable: ChannelIndex = 3, VariableId = 8
+2025-02-23 12:54:07.840 +01:00 [DBG] Parsed variable: ChannelIndex = 4, VariableId = 9
+2025-02-23 12:54:07.887 +01:00 [DBG] Parsed variable: ChannelIndex = 5, VariableId = 10
+2025-02-23 12:54:07.887 +01:00 [DBG] Parsed variable: ChannelIndex = 6, VariableId = 11
+2025-02-23 12:54:07.888 +01:00 [DBG] Parsed variable: ChannelIndex = 7, VariableId = 12
+2025-02-23 12:54:07.888 +01:00 [DBG] Parsed variable: ChannelIndex = 8, VariableId = 13
+2025-02-23 12:54:07.888 +01:00 [DBG] Parsed variable: ChannelIndex = 9, VariableId = 14
+2025-02-23 12:54:07.888 +01:00 [INF] Started processing VALUES section.
+2025-02-23 12:54:07.916 +01:00 [INF] Successfully parsed 10 variables and 1440 values from data/A1.TXT
+2025-02-23 12:54:07.916 +01:00 [INF] Calculating min/max results...
+2025-02-23 12:54:07.920 +01:00 [INF] Processed 10 results.
+2025-02-23 12:54:07.924 +01:00 [INF] Processing complete. Output written to data\output.txt
+2025-02-23 12:54:07.924 +01:00 [INF] RunAsync method execution finished.
